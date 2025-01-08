@@ -1,0 +1,7 @@
+echo "This is an example of ternary operations"
+
+read -p "Enter 1st number : " n
+read -p "Enter 2nd number : " m
+
+[[ $n -gt $m ]] && echo "1st number is greater" || echo "Second number is greater "
+
